@@ -43,7 +43,7 @@ const Footer = () => {
             </Link>
             <p className="text-muted-foreground max-w-md">
               Generate beautiful QR codes instantly. Perfect for URLs, text, contact info, and more. 
-              Fast, free, and designed with love.
+              Fast, free, and designed with Muhammad-Muzammil.
             </p>
             <div className="flex space-x-4">
               {socialLinks.map((social) => (
@@ -100,7 +100,7 @@ const Footer = () => {
         {/* Bottom Section */}
         <div className="border-t border-border/50 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0 animate-fade-in">
           <p className="text-muted-foreground text-sm flex items-center gap-1">
-            © {currentYear} QR Sparkle. Made with <Heart className="w-4 h-4 text-red-500 animate-pulse" /> for the web.
+            © {currentYear} QR Sparkle. Made with Muhammad-Muzammil for the web.
           </p>
           <p className="text-muted-foreground text-sm">
             Built with React, TypeScript & Tailwind CSS
