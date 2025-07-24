@@ -24,8 +24,8 @@ const Footer = () => {
   };
 
   const socialLinks = [
-    { icon: Github, href: '#', label: 'GitHub' },
-    { icon: Twitter, href: '#', label: 'Twitter' },
+    { icon: Github, href: 'https://github.com/MuhammadMuzammil-TheDeveloper/', label: 'GitHub' },
+    { icon: Twitter, href: 'https://x.com/MTheDeveloper?t=hbClxZXmcB0nXq8JU2o6RQ&s=08', label: 'Twitter' },
     { icon: Mail, href: '/contact', label: 'Email' },
   ];
 
