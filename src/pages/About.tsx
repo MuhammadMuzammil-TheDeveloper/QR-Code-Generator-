@@ -1,6 +1,7 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
+import{ Helmet } from 'react-helmet';
 import { 
   QrCode, 
   Heart, 
@@ -13,6 +14,7 @@ import {
 } from 'lucide-react';
 
 const About = () => {
+  
   const values = [
     {
       icon: Heart,
@@ -55,6 +57,33 @@ const About = () => {
   ];
 
   return (
+    <>
+  <Helmet>
+    <title>About | QR Sparkle - React QR Code Generator</title>
+    <meta
+      name="description"
+      content="Learn the story behind QR Sparkle — a privacy-first, beautifully designed QR code generator built with React. Meet the teams that make it happen."
+    />
+    <meta
+      name="keywords"
+      content="About QR Sparkle, React QR Code Generator, Team, Mission, Privacy, Free QR Generator"
+    />
+    <meta name="author" content="Muhammad Muzammil" />
+
+    {/* Open Graph for Facebook/LinkedIn */}
+    <meta property="og:title" content="About | QR Sparkle - Free QR Generator" />
+    <meta property="og:description" content="Our story, our mission, and the amazing team behind QR Sparkle." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://qr-codegenerato.netlify.app/about" />
+    <meta property="og:image" content="https://qr-codegenerato.netlify.app/og-banner.png" />
+
+    {/* Twitter Card */}
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="About | QR Sparkle" />
+    <meta name="twitter:description" content="Get to know the mission and values behind QR Sparkle." />
+    <meta name="twitter:image" content="https://qr-codegenerato.netlify.app/og-banner.png" />
+  </Helmet>
+
     <div className="container mx-auto px-4 py-12">
       {/* Hero Section */}
       <div className="text-center mb-16 animate-fade-in">
@@ -180,6 +209,7 @@ const About = () => {
         </Card>
       </div>
     </div>
+    </>
   );
 };
 
