@@ -1,6 +1,7 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
+import { Helmet } from "react-helmet";
 import { 
   Zap, 
   Download, 
@@ -65,6 +66,29 @@ const Features = () => {
   ];
 
   return (
+  <>
+    <Helmet>
+      <title>Features | QR Sparkle - Lightning Fast QR Code Generator</title>
+      <meta 
+        name="description" 
+        content="Explore the powerful features of QR Sparkle – fast generation, privacy-first, free downloads, custom styling, and mobile-ready QR codes." 
+      />
+      <meta 
+        name="keywords" 
+        content="QR code generator features, QR Sparkle, privacy QR, free QR download, responsive QR, custom QR design, react qr code" 
+      />
+      <meta name="author" content="Muhammad Muzammil" />
+      <meta property="og:title" content="Features | QR Sparkle" />
+      <meta property="og:description" content="Discover all the features that make QR Sparkle a top-tier QR code generator." />
+      <meta property="og:url" content="https://qr-codegenerato.netlify.app/features" />
+      <meta property="og:image" content="https://qr-codegenerato.netlify.app/og-banner.png" />
+      <meta property="og:type" content="website" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:title" content="Features | QR Sparkle" />
+      <meta name="twitter:description" content="Fast. Free. Beautiful. Learn what makes QR Sparkle stand out." />
+      <meta name="twitter:image" content="https://qr-codegenerato.netlify.app/og-banner.png" />
+    </Helmet>
+
     <div className="container mx-auto px-4 py-12">
       {/* Hero Section */}
       <div className="text-center mb-16 animate-fade-in">
@@ -170,6 +194,7 @@ const Features = () => {
         ))}
       </div>
     </div>
+    </>
   );
 };
 
