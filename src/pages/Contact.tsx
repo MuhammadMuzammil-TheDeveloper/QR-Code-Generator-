@@ -5,6 +5,7 @@ import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { Label } from '@/components/ui/label';
 import { useToast } from '@/hooks/use-toast';
+import { Helmet } from 'react-helmet';
 import { 
   QrCode, 
   Mail, 
@@ -81,6 +82,29 @@ const Contact = () => {
   ];
 
   return (
+  <>
+    <Helmet>
+      <title>Contact | QR Sparkle - Reach Out to Us</title>
+      <meta 
+        name="description" 
+        content="Have questions or feedback? Contact QR Sparkle's team for support, suggestions, or collaboration. We're here to help!" 
+      />
+      <meta 
+        name="keywords" 
+        content="Contact QR Sparkle, QR Code Generator Help, Support, Feedback, React QR App Contact" 
+      />
+      <meta name="author" content="Muhammad Muzammil" />
+      <meta property="og:title" content="Contact | QR Sparkle" />
+      <meta property="og:description" content="Reach out to the QR Sparkle team. We're here to help!" />
+      <meta property="og:url" content="https://qr-codegenerato.netlify.app/contact" />
+      <meta property="og:image" content="https://qr-codegenerato.netlify.app/og-banner.png" />
+      <meta property="og:type" content="website" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:title" content="Contact | QR Sparkle" />
+      <meta name="twitter:description" content="Have questions? Feedback? We're here to listen and help." />
+      <meta name="twitter:image" content="https://qr-codegenerato.netlify.app/og-banner.png" />
+    </Helmet>
+
     <div className="container mx-auto px-4 py-12">
       {/* Hero Section */}
       <div className="text-center mb-16 animate-fade-in">
@@ -235,6 +259,7 @@ const Contact = () => {
         </Card>
       </div>
     </div>
+    </>
   );
 };
 
