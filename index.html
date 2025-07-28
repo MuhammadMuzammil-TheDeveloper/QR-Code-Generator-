@@ -1,66 +1,54 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-<head>
-    <!-- Primary Meta Tags -->
+<html lang="en">
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#6A0DAD" /> <!-- Purple theme -->
-    <title>QR Sparkle: Free Online QR Code Generator | Create Custom QR Codes</title>
-    <meta name="description" content="Create beautiful, scannable QR codes instantly for free. Generate QR codes for URLs, WiFi, contact info, and more. No registration required!" />
-    <meta name="keywords" content="QR code generator, free QR code, custom QR code, QR code creator, business QR code, digital marketing QR code" />
-    <meta name="author" content="QR Sparkle Team" />
-    <meta name="robots" content="index, follow" />
 
-    <!-- Purple-Themed Favicon (SVG with #6A0DAD) -->
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><rect width='24' height='24' fill='%236A0DAD'/><rect x='5' y='5' width='5' height='5' fill='white'/><rect x='5' y='14' width='5' height='5' fill='white'/><rect x='14' y='5' width='5' height='5' fill='white'/></svg>" />
-
-    <!-- Open Graph / Social Media Meta -->
-    <meta property="og:title" content="QR Sparkle: Free Online QR Code Generator" />
-    <meta property="og:description" content="Create beautiful, scannable QR codes instantly for URLs, WiFi, contact info, and more. No registration required!" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://qrsparkle.com" />
-    <meta property="og:image" content="https://qrsparkle.com/images/social-preview.jpg" />
-    <meta property="og:site_name" content="QR Sparkle" />
-
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="QR Sparkle: Free Online QR Code Generator" />
-    <meta name="twitter:description" content="Create custom QR codes in seconds - free forever!" />
-    <meta name="twitter:image" content="https://qrsparkle.com/images/twitter-preview.jpg" />
-    <meta name="twitter:creator" content="@qrsparkle" />
+    <!-- Title & Description -->
+    <title>QR Sparkle - Custom QR Code Generator</title>
+    <meta name="description" content="Generate and customize QR codes with colors, logos, and styles. Free online QR code generator for all your needs." />
 
     <!-- Canonical URL -->
-    <link rel="canonical" href="https://qrsparkle.com" />
+    <link rel="canonical" href="https://qr-codegenerato.netlify.app" />
 
-    <!-- Structured Data (JSON-LD) -->
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="QR Sparkle - Custom QR Code Generator" />
+    <meta property="og:description" content="Generate and customize QR codes with colors, logos, and styles." />
+    <meta property="og:url" content="https://qr-codegenerato.netlify.app" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://qr-codegenerato.netlify.app/images/social-preview.jpg" />
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="QR Sparkle - Custom QR Code Generator" />
+    <meta name="twitter:description" content="Generate and customize QR codes with colors, logos, and styles." />
+    <meta name="twitter:image" content="https://qr-codegenerato.netlify.app/images/twitter-preview.jpg" />
+
+    <!-- Favicon -->
+    <link rel="icon" href="/favicon.ico" />
+
+    <!-- JSON-LD Structured Data -->
     <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebApplication",
-      "name": "QR Sparkle",
-      "url": "https://qrsparkle.com",
-      "description": "Free online QR code generator with customization options",
-      "applicationCategory": "Utilities",
-      "operatingSystem": "Web",
-      "offers": {
-        "@type": "Offer",
-        "price": "0",
-        "priceCurrency": "USD"
-      },
-      "creator": {
-        "@type": "Organization",
-        "name": "QR Sparkle"
+      {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "QR Sparkle",
+        "url": "https://qr-codegenerato.netlify.app",
+        "description": "Free online QR code generator with customization options like color, shape, and embedded logos.",
+        "applicationCategory": "UtilitiesApplication",
+        "operatingSystem": "All",
+        "browserRequirements": "Requires JavaScript. Works best in modern browsers.",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        }
       }
-    }
     </script>
+  </head>
 
-    <!-- Preload Critical Resources -->
-    <link rel="preload" href="/src/main.tsx" as="script" />
-</head>
-<body>
+  <body>
     <div id="root"></div>
-    
-    <!-- Loading Optimization -->
-    <script type="module" src="/src/main.tsx" defer></script>
-</body>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>
