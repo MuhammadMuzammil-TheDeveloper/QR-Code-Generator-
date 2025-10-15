@@ -60,5 +60,26 @@ cd QR-Code-Generator-
 # Install dependencies
 npm install
 
+---
+QR-Code-Generator-/
+│
+├── public/                # Static assets
+├── src/
+│   ├── components/        # Reusable components
+│   ├── pages/             # Page-level components
+│   ├── assets/            # Images and icons
+│   ├── App.tsx            # Root React component
+│   └── main.tsx           # Entry point
+│
+├── index.html             # Main HTML file
+├── tailwind.config.ts     # TailwindCSS configuration
+├── vite.config.ts         # Vite configuration
+└── README.md              # Project documentation
+
+---
+📸 Preview
+
+<img width="1826" height="873" alt="image" src="https://github.com/user-attachments/assets/fe6170d4-78a2-46c3-a9ed-5d21dfcf5d39" />
+
 # Start development server
 npm run dev
