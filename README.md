@@ -47,19 +47,6 @@ This project was developed to:
 | **GitHub Pages** | Free deployment and hosting |
 
 ---
-
-## ⚙️ How to Run Locally
-
-```bash
-# Clone this repository
-git clone https://github.com/muhammadmuzammil-thedeveloper/QR-Code-Generator-.git
-
-# Move into the project folder
-cd QR-Code-Generator-
-
-# Install dependencies
-npm install
-
 ---
 QR-Code-Generator-/
 │
@@ -83,3 +70,15 @@ QR-Code-Generator-/
 
 # Start development server
 npm run dev
+
+## ⚙️ How to Run Locally
+
+```bash
+# Clone this repository
+git clone https://github.com/muhammadmuzammil-thedeveloper/QR-Code-Generator-.git
+
+# Move into the project folder
+cd QR-Code-Generator-
+
+# Install dependencies
+npm install
