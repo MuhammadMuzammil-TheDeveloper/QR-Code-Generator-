@@ -1,6 +1,6 @@
 # 🌐 Free QR Code Generator Website  
 ### 👨‍💻 Developed by **Muhammad Muzammil** | Frontend Web Developer  
-🔗 **Live Demo:** [QR Code Generator](https://muhammadmuzammil-thedeveloper.github.io/QR-Code-Generator-/)
+🔗 **Live Demo:** [QR Code Generator](https://qrcog.netlify.app/)
 
 ![React](https://img.shields.io/badge/React-18.0-blue?style=for-the-badge&logo=react)
 ![TypeScript](https://img.shields.io/badge/TypeScript-4.9-blue?style=for-the-badge&logo=typescript)
