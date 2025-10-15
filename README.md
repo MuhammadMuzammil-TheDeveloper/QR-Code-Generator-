@@ -47,7 +47,6 @@ This project was developed to:
 | **GitHub Pages** | Free deployment and hosting |
 
 ---
----
 QR-Code-Generator-/
 │
 ├── public/                # Static assets
